@@ -9,7 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-All datasets are saved as `.mdb` files. Please download the dataset from the provided [link](https://drive.google.com/file/d/1oCFu8EN1ZbtMMiFqCP-p4OaqQkRn4Elx/view?usp=sharing) or using
+All datasets are saved as `.mdb` files. Please download the dataset from the provided [link](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
 ```
 pip install gdown
 gdown https://drive.google.com/uc?id=1oCFu8EN1ZbtMMiFqCP-p4OaqQkRn4Elx

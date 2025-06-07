@@ -1,5 +1,5 @@
 # SCHull in Scientific Application
-This repository contains the code used for the experiments presented in the [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2) paper, selected for an Oral presentation at ICLR 2025.
+This repository contains the code used for the experiments presented in the paper [A Theoretically-Principled Sparse, Connected, and Rigid Graph Representation of Molecules](https://openreview.net/pdf?id=OIvg3MqWX2), selected for an [Oral presentation at ICLR 2025](https://iclr.cc/virtual/2025/oral/31862).
 
 ## Environment
 All experiments were conducted using Python 3.9.20 within a Conda 24.11.3 environment, with CUDA 12.4 support on NVIDIA RTX 3090 GPUs. All required packages are specified in the [`requirements.txt`](https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/requirements.txt) file.

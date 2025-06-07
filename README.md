@@ -9,7 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-We use the EC-reaction and fold datasets from [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant information required for both baseline models and our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package. The data folders are organized as follows:
+We use the reaction and fold datasets from [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant information required for both baseline models and our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package. The data folders are organized as follows:
 ```bash
 ├── Data
 │     │           

@@ -59,21 +59,21 @@ The experimental codes are organized as:
 ```
 To run the experiments, one approach is to `cd` to the `SCHull4Science` directory and execute the following command:
 
-### Reaction Classification
+### 1) Reaction Classification
 ```bash
 
 python main_react.py --data_path <PATH_to_Data/Reaction-EC> --exp_name <Experiment_Name>
 
 ```
 
-### Fold Classification
+### 2) Fold Classification
 ```bash
 
 python main_fold.py --data_path <PATH_to_Data/FoldData> --exp_name <Experiment_Name>
 
 ```
 
-### LBA Prediction
+### 3) LBA Prediction
 ```bash
 
 python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> --exp_name <Experiment_Name>

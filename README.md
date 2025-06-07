@@ -6,7 +6,12 @@ All experiments were conducted using Python 3.9.20 within a Conda 24.11.3 enviro
  
 ## Dataset
 ### Dataset Files
-All datasets are saved as `.mdb` files. Please download the dataset from the provided [link](https://drive.google.com/file/d/1oCFu8EN1ZbtMMiFqCP-p4OaqQkRn4Elx/view?usp=sharing) and unzip it before running the experiments. The data folders are organized as follows:
+All datasets are saved as `.mdb` files. Please download the dataset from the provided [link](https://drive.google.com/file/d/1oCFu8EN1ZbtMMiFqCP-p4OaqQkRn4Elx/view?usp=sharing) or using
+```
+pip install gdown
+gdown https://drive.google.com/uc?id=1oCFu8EN1ZbtMMiFqCP-p4OaqQkRn4Elx
+```
+and unzip it before running the experiments. The data folders are organized as follows:
 ```bash
 ├── Data
 │     │           

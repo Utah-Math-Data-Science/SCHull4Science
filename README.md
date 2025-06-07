@@ -5,7 +5,7 @@ This repository contains the code used for the experiments presented in the pape
 </p>
 
 ## Environment
-All experiments were conducted using Python 3.9.20 within a Conda 24.11.3 environment, with CUDA 12.4 support on NVIDIA RTX 3090 GPUs. All required packages are specified in the [`requirements.txt`](https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/requirements.txt) file.
+All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](https://anaconda.org/anaconda/conda/files?page=2&sort=ndownloads&sort_order=asc&type=conda&version=24.11.3) environment, with CUDA 12.4 support on NVIDIA RTX 3090 GPUs. All required packages are specified in the [`requirements.txt`](https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/requirements.txt) file.
  
 ## Dataset
 ### Dataset Files

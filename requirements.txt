@@ -1,14 +1,10 @@
 # Python Development
-pre-commit
 psutil
-pytest
-pytest-mpi
 tqdm
 
 # Machine Learning
 torch==2.5.1+cu124
 pandas
-pickle5
 matplotlib
 wandb
 

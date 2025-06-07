@@ -46,10 +46,19 @@ The experimental codes are organized as:
 ├── SCHull4Science
 │     │           
 │     ├── SCHull
+│     │       ├── SCHull.py
+│     │       ...
 │     ├── models
+│     │       ├── pronet.py
+│     │       ...
+│     ├── dataset
+│     │       ├── fold_dataset.py
+│     │       ...
 │     ...
 │     ├── main_react.py
+│     ├── main_react.py
 │     ...
+│
 ```
 To run the experiments, one approach is to `cd` to the `SCHull4Science` directory and execute the following command:
 

@@ -12,7 +12,6 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
 All datasets are saved as `.mdb` files. Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
 ```
 wget https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/download/v1.0.0/Data.zip
-
 ```
 and unzip it before running the experiments. The data folders are organized as follows:
 ```bash

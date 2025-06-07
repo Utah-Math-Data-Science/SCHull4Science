@@ -16,17 +16,15 @@ and unzip it before running the experiments. The data folders are organized as f
 ├── Data
 │     │           
 │     ├── Reaction-EC
-│     │          │
-│     │          ├── train
-│     │          │      ├── data.mdb
-│     │          │      ├── lock.mdb
-│     │          ├── val
-│     │          │     ...
-│     │           ...
+│     │       │
+│     │       ├── train
+│     │       │     ├── data.mdb
+│     │       │     ├── lock.mdb
+│     │       │     ...
+│     │       ├── val 
+│     │       ...
 │     ├── FoldData
-│     │          ...
-│     │                    
-│   ...
+│     ...               
 ```
 ### Data Pre-processing
 When the code is run for the first time, it will automatically pre-process the data, which includes constructing the original node features and the [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2) graph using 
@@ -44,19 +42,20 @@ Each pre-processing step takes less than 10 minutes to complete, with approximat
 The experimental codes are organized as:
 ```bash
 ├── SCHull4Science
-│     │           
-│     ├── SCHull
-│     │       ├── SCHull.py
-│     │       ...
-│     ├── models
-│     │       ├── pronet.py
-│     │       ...
-│     ├── dataset
-│     │       ├── fold_dataset.py
-│     │       ...
-│     ...
-│     ├── main_react.py
-│     ├── main_react.py
+│       │           
+│       ├── SCHull
+│       │      ├── SCHull.py
+│       │      ...
+│       ├── models
+│       │      ├── pronet.py
+│       │      ...
+│       ├── dataset
+│       │      ├── fold_dataset.py
+│       │      ...
+│       ...
+│       ├── main_react.py
+│       │
+│       ├── main_react.py
 │     ...
 ```
 To run the experiments, one approach is to `cd` to the `SCHull4Science` directory and execute the following command:

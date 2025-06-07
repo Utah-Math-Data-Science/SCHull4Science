@@ -33,10 +33,10 @@ The experimental codes are organized as:
 ├── SCHull4Science
 │     │           
 │     ├── SCHull
-|     ├── models
-|     ...
-|     ├── main_react.py
-|     ...
+│     ├── models
+│     ...
+│     ├── main_react.py
+│     ...
 ```
 One way to run the experiments is open the folder `SCHull4Science` and run
 

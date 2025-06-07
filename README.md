@@ -9,7 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-All datasets are saved as `.mdb` files. Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
+We use EC-reaction and fold dataset provided in [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and LBA dataset provided in [atom3d](https://github.com/drorlab/atom3d). All datasets are saved as `.mdb` files. Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
 ```
 wget https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/download/v1.0.0/Data.zip
 ```

@@ -1,7 +1,8 @@
 # SCHull for Protein
-Code for protein experiments in [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2).
+This repository contains the code used for protein-related experiments presented in the [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2) paper.
+
 ## Environment
-All experiments were implemented using Python 3.9.20 and Conda 24.11.3, with the required packages listed in the `requirements.txt` file.
+All experiments were conducted using Python 3.9.20 within a Conda 24.11.3 environment, with CUDA 12.4 support on an NVIDIA RTX 3090 GPU. All required packages are specified in the requirements.txt file.
  
 ## Dataset
 ### Dataset Files

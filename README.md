@@ -9,7 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-We use the reaction and fold datasets from [DIG](https://github.com/divelab/DIG/tree/dig-stable/dig/threedgraph/dataset#ecdataset-and-folddatase) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant information required for both baseline models and our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package, which keeps the total storage of the datasets under 2GB. The datasets are loaded as `LMDBDataset` in `atom3d` when runing the experiments. 
+We use the reaction and fold datasets from [DIG](https://github.com/divelab/DIG/tree/dig-stable/dig/threedgraph/dataset#ecdataset-and-folddatase) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package, which keeps the total storage of the datasets under 2GB. The datasets are loaded as `LMDBDataset` in `atom3d` when runing the experiments. 
 
 Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
 ```

@@ -80,5 +80,15 @@ python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> 
 
 ```
 
+## Citation
+```
+@inproceedings{wang2025schull,
+  title={A Theoretically-Principled Sparse, Connected, and Rigid Graph Representation of Molecules},
+  author={Wang, Shih-Hsin and Huang, Yuhao and Baker, Justin and Sun, Yuan-En and Tang, Qi and Wang, Bao},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2025}
+}
+```
+
 ## Claim
 This repository incorporates components of code from the [DIG](https://github.com/divelab/DIG).

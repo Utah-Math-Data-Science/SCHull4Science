@@ -30,3 +30,17 @@ When the code is run for the first time, it will automatically pre-process the d
 python main_react.py --data_path <PATH_to_Data/Reaction-EC> --exp_name <Experiment_Name>
 
 ```
+
+### Fold Classification
+```bash
+
+python main_fold.py --data_path <PATH_to_Data/FoldData> --exp_name <Experiment_Name>
+
+```
+
+### LBA
+```bash
+
+python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> --exp_name <Experiment_Name>
+
+```

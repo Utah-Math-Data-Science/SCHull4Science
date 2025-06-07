@@ -38,7 +38,7 @@ The experimental codes are organized as:
 │     ├── main_react.py
 │     ...
 ```
-One way to run the experiments is open the folder `SCHull4Science` and run
+To run the experiments, one approach is to `cd` to the `SCHull4Science` directory and execute the following command:
 
 ### Reaction Classification
 ```bash

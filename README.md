@@ -9,7 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-We use the EC-reaction and fold datasets from [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant graph-level information for our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` function in [`atom3d`](https://github.com/drorlab/atom3d) package. Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
+We use the EC-reaction and fold datasets from [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant graph-level information for our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package. Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
 ```
 wget https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/download/v1.0.0/Data.zip
 ```

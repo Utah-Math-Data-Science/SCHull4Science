@@ -9,11 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-We use the EC-reaction and fold datasets from [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant information required for both baseline models and our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package. Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
-```
-wget https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/download/v1.0.0/Data.zip
-```
-and unzip it before running the experiments. The data folders are organized as follows:
+We use the EC-reaction and fold datasets from [IEConv_proteins](https://github.com/phermosilla/IEConv_proteins#download-the-preprocessed-datasets) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We extracted all relevant information required for both baseline models and our tasks and unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package. The data folders are organized as follows:
 ```bash
 ├── Data
 │     │           
@@ -28,6 +24,11 @@ and unzip it before running the experiments. The data folders are organized as f
 │     ├── FoldData
 │     ...               
 ```
+Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
+```
+wget https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/download/v1.0.0/Data.zip
+```
+and unzip it before running the experiments. 
 ### Data Pre-processing
 When the code is run for the first time, it will automatically pre-process the data, which includes constructing the original node features and the [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2) graph using 
 ```

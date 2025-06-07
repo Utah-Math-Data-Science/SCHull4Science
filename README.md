@@ -6,7 +6,7 @@ All experiments were conducted using Python 3.9.20 within a Conda 24.11.3 enviro
  
 ## Dataset
 ### Dataset Files
-All datasets are saved as `.mdb` files. Please download the dataset from the provided [link](https://drive.google.com/drive/folders/15js5KZqXsEOZSdCmx52JpqwjQn7SOpo9?usp=drive_link) and unzip it before running the experiments. The data folders are organized as follows:
+All datasets are saved as `.mdb` files. Please download the dataset from the provided [link](https://drive.google.com/file/d/1oCFu8EN1ZbtMMiFqCP-p4OaqQkRn4Elx/view?usp=sharing) and unzip it before running the experiments. The data folders are organized as follows:
 ```bash
 ├── Data
 │     │           
@@ -29,10 +29,11 @@ When the code is run for the first time, it will automatically pre-process the d
 import SCHull; schull = SCHull.SCHull()
 schull.get_schull
 ```
-Each pre-processing step takes less than 10 minutes to complete, with approximately 40% of the time spent on constructing the SCHull graph.
 <p align="center">
 <img src="https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/SCHull_fig.png" alt="Description of image" width="70%">
 </p>
+Each pre-processing step takes less than 10 minutes to complete, with approximately 40% of the time spent on constructing the SCHull graph.
+
 
 ## Experiments
 The experimental codes are organized as:

@@ -9,7 +9,7 @@ All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](http
  
 ## Dataset
 ### Dataset Files
-We use the reaction and fold datasets from [DIG](https://github.com/divelab/DIG/tree/dig-stable/dig/threedgraph/dataset#ecdataset-and-folddatase) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We unified the storage format by saving all datasets as `.mdb` files using `make_lmdb_dataset` in [`atom3d`](https://github.com/drorlab/atom3d) package, which keeps the total storage of the datasets under 2GB. The datasets are loaded as `LMDBDataset` in `atom3d` when runing the experiments. 
+We use the reaction and fold datasets from [DIG](https://github.com/divelab/DIG/tree/dig-stable/dig/threedgraph/dataset#ecdataset-and-folddatase) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We unified the storage format by saving all datasets as `.mdb` files, which keeps the total storage of the datasets under 2GB. The datasets are loaded as `LMDBDataset` in [`atom3d`](https://github.com/drorlab/atom3d) package when runing the experiments. 
 
 Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
 ```
@@ -43,7 +43,7 @@ Each pre-processing step takes less than 10 minutes to complete, with approximat
 
 
 ## Experiments
-The experimental codes are organized as:
+We follow the section 3.4 in [SCHull paper](https://openreview.net/pdf?id=OIvg3MqWX2) to integrate the SCHull graph into the baseline models. The experimental codes are organized as:
 ```bash
 ├── SCHull4Science
 │       │           
@@ -69,7 +69,8 @@ To run the experiments, one approach is to `cd` to the `SCHull4Science` director
 
 python main_react.py --data_path <PATH_to_Data/Reaction-EC> \
                      --save_dir <PATH_to_SAVE> \
-                     --exp_name <Experiment_Name>
+                     --exp_name <Experiment_Name> \
+                     --schull <True_for_Integrating_SCHull>
 
 ```
 
@@ -78,7 +79,8 @@ python main_react.py --data_path <PATH_to_Data/Reaction-EC> \
 
 python main_fold.py --data_path <PATH_to_Data/FoldData> \
                     --save_dir <PATH_to_SAVE> \
-                    --exp_name <Experiment_Name>
+                    --exp_name <Experiment_Name> \
+                    --schull <True_for_Integrating_SCHull>
 
 ```
 
@@ -87,7 +89,8 @@ python main_fold.py --data_path <PATH_to_Data/FoldData> \
 
 python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> \
                    --save_dir <PATH_to_SAVE> \
-                   --exp_name <Experiment_Name>
+                   --exp_name <Experiment_Name> \
+                   --schull <True_for_Integrating_SCHull>
 
 ```
 

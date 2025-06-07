@@ -28,7 +28,7 @@ Please download the dataset from the provided in the [releases](https://github.c
 ```
 wget https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/download/v1.0.0/Data.zip
 ```
-and unzip it before running the experiments. 
+and `unzip Data.zip` before running the experiments. 
 ### Data Pre-processing
 When the code is run for the first time, it will automatically pre-process the data, which includes constructing the original node features and the [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2) graph using 
 ```

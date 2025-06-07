@@ -60,3 +60,6 @@ python main_fold.py --data_path <PATH_to_Data/FoldData> --exp_name <Experiment_N
 python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> --exp_name <Experiment_Name>
 
 ```
+
+## Claim
+This repository incorporates components of code from the [DIG](https://github.com/divelab/DIG).

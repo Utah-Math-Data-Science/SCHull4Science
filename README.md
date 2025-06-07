@@ -28,6 +28,18 @@ When the code is run for the first time, it will automatically pre-process the d
 ![schull](https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/SCHull_fig.png)
 
 ## Experiments
+The experimental codes are organized as:
+```bash
+├── SCHull4Science
+│     │           
+│     ├── SCHull
+|     ├── models
+|     ...
+|     ├── main_react.py
+|     ...
+```
+One way to run the experiments is open the folder `SCHull4Science` and run
+
 ### Reaction Classification
 ```bash
 

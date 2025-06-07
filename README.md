@@ -63,21 +63,27 @@ To run the experiments, one approach is to `cd` to the `SCHull4Science` director
 ### 1) Reaction Classification
 ```bash
 
-python main_react.py --data_path <PATH_to_Data/Reaction-EC> --exp_name <Experiment_Name>
+python main_react.py --data_path <PATH_to_Data/Reaction-EC> \
+                     --save_dir <PATH_to_SAVE> \
+                     --exp_name <Experiment_Name>
 
 ```
 
 ### 2) Fold Classification
 ```bash
 
-python main_fold.py --data_path <PATH_to_Data/FoldData> --exp_name <Experiment_Name>
+python main_fold.py --data_path <PATH_to_Data/FoldData> \
+                    --save_dir <PATH_to_SAVE> \
+                    --exp_name <Experiment_Name>
 
 ```
 
 ### 3) LBA Prediction
 ```bash
 
-python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> --exp_name <Experiment_Name>
+python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> \
+                   --save_dir <PATH_to_SAVE> \
+                   --exp_name <Experiment_Name>
 
 ```
 

@@ -33,7 +33,7 @@ parser.add_argument('--device', type=int, default=9, help='Device to use')
 parser.add_argument('--num_workers', type=int, default=8, help='Number of workers in Dataloader')
 
 ### Data
-parser.add_argument('--data_path', type=str, default='/mntc/yuhaoh/Data/Reaction-EC', help='path to load and process the data')
+parser.add_argument('--data_path', type=str, help='path to load and process the data', required=True)
 
 # data augmentation tricks
 parser.add_argument('--mask', action='store_true', help='Random mask some node type')
@@ -71,7 +71,7 @@ parser.add_argument('--wandb', type=str, default='disabled', help='wandb mode')
 parser.add_argument('--wandb_entity', type=str, default='utah-math-data-science', help='wandb entity')
 parser.add_argument('--wandb_project', type=str, default='SCHull_on_EC', help='wandb project name')
 parser.add_argument('--seed', type=int, default=42, help='Random seed for reproducibility')
-parser.add_argument('--save_dir', type=str, default='/mntc/yuhaoh/Out/SCHull/EC', help='Number of GPUs to use')
+parser.add_argument('--save_dir', type=str, required=True, help='Directory to save the model and logs')
 
 
 args = parser.parse_args()

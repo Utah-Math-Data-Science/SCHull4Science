@@ -27,7 +27,7 @@ def random_exp_name(prefix='exp', length=6):
 parser = argparse.ArgumentParser()
 parser.add_argument('--num_workers', metavar='N', type=int, default=4, help='number of threads for loading data, default=4')
 parser.add_argument('--dataset', type=str, default='lba')
-parser.add_argument('--data_path', type=str, default='/mntc/yuhaoh/Data/LBA-split-by-sequence-identity-30')
+parser.add_argument('--data_path', type=str, required=True, help='Path to the dataset directory. Should contain train, val, and test subdirectories.')
 
 # Training
 parser.add_argument('--epochs', type=int, default=500, help='Number of epochs to train')
@@ -65,7 +65,7 @@ parser.add_argument('--wandb', type=str, default='disabled', help='wandb mode')
 parser.add_argument('--wandb_entity', type=str, default='utah-math-data-science', help='wandb entity')
 parser.add_argument('--wandb_project', type=str, default='SCHull_on_LBA_02', help='wandb project name')
 parser.add_argument('--seed', type=int, default=42, help='Random seed for reproducibility')
-parser.add_argument('--save_dir', type=str, default='/mntc/yuhaoh/Out/SCHull/LBA', help='Number of GPUs to use')
+parser.add_argument('--save_dir', type=str, required=True, help='Directory to save the model and logs')
 
 
 args = parser.parse_args()

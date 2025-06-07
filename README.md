@@ -14,13 +14,13 @@ We use the reaction and fold datasets from [DIG](https://github.com/divelab/DIG/
 ├── Data
 │     │           
 │     ├── Reaction-EC
-│     │       │
-│     │       ├── train
-│     │       │     ├── data.mdb
-│     │       │     ├── lock.mdb
-│     │       │     ...
-│     │       ├── val 
-│     │       ...
+│     │      │
+│     │      ├── train
+│     │      │     ├── data.mdb
+│     │      │     ├── lock.mdb
+│     │      │     ...
+│     │      ├── val 
+│     │      ...
 │     ├── FoldData
 │     ...               
 ```

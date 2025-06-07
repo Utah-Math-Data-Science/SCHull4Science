@@ -1,0 +1,9 @@
+README.md
+setup.py
+torch_canon/Hopcroft.py
+torch_canon/__init__.py
+torch_canon/utilities.py
+torch_canon.egg-info/PKG-INFO
+torch_canon.egg-info/SOURCES.txt
+torch_canon.egg-info/dependency_links.txt
+torch_canon.egg-info/top_level.txt

@@ -67,7 +67,7 @@ python main_fold.py --data_path <PATH_to_Data/FoldData> --exp_name <Experiment_N
 
 ```
 
-### LBA
+### LBA Prediction
 ```bash
 
 python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> --exp_name <Experiment_Name>

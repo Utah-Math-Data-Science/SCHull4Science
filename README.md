@@ -58,7 +58,6 @@ The experimental codes are organized as:
 │     ├── main_react.py
 │     ├── main_react.py
 │     ...
-│
 ```
 To run the experiments, one approach is to `cd` to the `SCHull4Science` directory and execute the following command:
 

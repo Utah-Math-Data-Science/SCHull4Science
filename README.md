@@ -43,7 +43,7 @@ Each pre-processing step takes less than 10 minutes to complete, with approximat
 
 
 ## Experiments
-We follow the section 3.4 in [SCHull paper](https://openreview.net/pdf?id=OIvg3MqWX2) to integrate the SCHull graph into the baseline models. The experimental codes are organized as:
+We follow the section 3.4 in [SCHull paper](https://openreview.net/pdf?id=OIvg3MqWX2) to integrate the SCHull graph into the baseline models. The project codes are organized as:
 ```bash
 ├── SCHull4Science
 │       │           

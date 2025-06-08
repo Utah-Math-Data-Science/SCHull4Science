@@ -8,7 +8,7 @@ This repository contains the code used for the experiments presented in the pape
 All experiments were conducted using Python 3.9.20 within a [Conda 24.11.3](https://anaconda.org/anaconda/conda/files?page=2&sort=ndownloads&sort_order=asc&type=conda&version=24.11.3) environment, with CUDA 12.4 support on NVIDIA RTX 3090 GPUs. All required packages are specified in the [`requirements.txt`](https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/requirements.txt) file.
  
 ## Dataset
-### Dataset Files
+### 1) Dataset Files
 We use the reaction and fold datasets from [DIG](https://github.com/divelab/DIG/tree/dig-stable/dig/threedgraph/dataset#ecdataset-and-folddatase) and and the LBA dataset from [atom3d](https://github.com/drorlab/atom3d). We unified the storage format by saving all datasets as `.mdb` files, which keeps the total storage of the datasets under 2GB. The datasets are loaded as `LMDBDataset` in [`atom3d`](https://github.com/drorlab/atom3d) package when runing the experiments. 
 
 Please download the dataset from the provided in the [releases](https://github.com/Utah-Math-Data-Science/SCHull4Science/releases/tag/v1.0.0) or using
@@ -33,7 +33,7 @@ The data folders are organized as follows:
 │     ...               
 ```
 
-### Data Pre-processing
+### 2) Data Pre-processing
 When the code is run for the first time, it will automatically pre-process the data, which includes constructing the original node features and the [SCHull](https://openreview.net/pdf?id=OIvg3MqWX2) graph using 
 ```
 import SCHull; schull = SCHull.SCHull()
@@ -95,6 +95,7 @@ python main_lba.py --data_path <PATH_to_Data/LBA-split-by-sequence-identity-30> 
 ```
 
 ## Citation
+You're welcome to cite our paper — we appreciate your support!
 ```
 @inproceedings{wang2025schull,
   title={A Theoretically-Principled Sparse, Connected, and Rigid Graph Representation of Molecules},

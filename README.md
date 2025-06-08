@@ -1,4 +1,4 @@
-# SCHull in Scientific Application
+# SCHull in Scientific Applications
 This repository contains the code used for the experiments presented in the paper [A Theoretically-Principled Sparse, Connected, and Rigid Graph Representation of Molecules](https://openreview.net/pdf?id=OIvg3MqWX2), selected for an [Oral presentation at ICLR 2025](https://iclr.cc/virtual/2025/oral/31862).
 <p align="center">
 <img src="https://github.com/Utah-Math-Data-Science/SCHull4Science/blob/main/SCHull_fig.png" alt="Description of image" width="70%">

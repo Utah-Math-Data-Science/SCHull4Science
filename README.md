@@ -20,17 +20,17 @@ and `unzip Data.zip` before running the experiments.
 The data folders are organized as follows:
 ```bash
 ├── Data
-│     │           
-│     ├── Reaction-EC
-│     │      │
-│     │      ├── train
-│     │      │     ├── data.mdb
-│     │      │     ├── lock.mdb
-│     │      │     ...
-│     │      ├── val 
-│     │      ...
-│     ├── FoldData
-│     ...               
+│      │           
+│      ├── Reaction-EC
+│      │      │
+│      │      ├── train
+│      │      │      ├── data.mdb
+│      │      │      ├── lock.mdb
+│      │      │      ...
+│      │      ├── val 
+│      │      ...
+│      ├── FoldData
+│      ...               
 ```
 
 ### 2) Data Pre-processing
